@@ -14,15 +14,16 @@
                            (get-center width height))}
                   size)))
 
-(defn- create-root [{:keys [x y]}]
+(defn- create-root [{:keys [width height]}]
   (node
     :text *default-name*
-    :position {:x x :y y}
+    :position (get-center width height *node-size*)
+    :size *node-size*
     :font *default-font*
     :color *default-color*))
 
-(defn- get-center [board-width board-height]
+(defn- get-center [board-width board-height {width :width height :height}]
   {:x (- (/ board-width 2)
-        (/ (*node-size* :width ) 2))
+        (/ width 2))
    :y (- (/ board-height 2)
-        (/ (*node-size* :height ) 2))})
+        (/ height 2))})

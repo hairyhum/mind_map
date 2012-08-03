@@ -8,11 +8,12 @@
 
 (defrecord node-record
   [parent
-   children
    text
+   position
+   size
    font
    color
-   position]
+   children]
   Node
   (root? [_]
     (nil? parent))
@@ -21,11 +22,12 @@
   (remove [node child]
     (assoc node :children (desj children child))))
 
-(defn node [& {:keys [parent text position style children]}]
+(defn node [& {:keys [parent text position size font color children]}]
   (atom (map->node-record
           {:parent parent
            :text text
            :position position
+           :size size
            :font font
            :color color
            :children (set children)}
