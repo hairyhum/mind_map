@@ -44,7 +44,15 @@
 (defn- get-path [size]
   (get-path-cache size))
 
-(defn- get-branch [{root-pos :position root-size :size} {pos :position size :size}]
+(defn- get-branch [{{root-x :x root-y :y} :position {root-height :height root-width :width} :size} {pos :position size :size}]
+  (let [root-y (+ (root-pos :y ) (/ (root-size :height) 2))
+        root-left {:x (root-pos :x) :y root-y}
+       root-right {:x (+ (root-pos :x) (root-size :x)) :y root-y}
+       node-y (+ (node-pos :y) (/ (node-size :height) 2))
+        ]
+    )
+
+
   (let [left
         (> (root-pos :x ) (pos :x ))
         right

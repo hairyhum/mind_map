@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd95e3c-fbb1-46c5-9bd6-f17686275f66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mind_map/cljs/models/board.cljs" afterPath="$PROJECT_DIR$/src/mind_map/cljs/models/board.cljs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mind_map/cljs/views/board.cljs" afterPath="$PROJECT_DIR$/src/mind_map/cljs/views/board.cljs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mind_map/models/node.clj" afterPath="$PROJECT_DIR$/src/mind_map/models/node.clj" />
     </list>
     <ignored path="mind-map.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +82,7 @@
       <file leaf-file-name="board.cljs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mind_map/cljs/views/board.cljs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="35" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.37984496">
+            <state line="46" column="90" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.4379845">
               <folding />
             </state>
           </provider>
@@ -431,6 +427,11 @@
       <created>1343737877597</created>
       <updated>1343737877597</updated>
     </task>
+    <task id="LOCAL-00001" summary="[+] Some drawing logic">
+      <created>1343995557822</created>
+      <updated>1343995557822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -448,6 +449,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -499,7 +501,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] Some drawing logic" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -512,6 +514,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="[+] Some drawing logic" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -623,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mind_map/cljs/views/board.cljs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="35" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.37984496">
+        <state line="46" column="90" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.4379845">
           <folding />
         </state>
       </provider>
